@@ -8,8 +8,8 @@ yesBtn.addEventListener("click", () => {
   question.innerHTML = "Yay, see you on the 18th!";
   gif.src =
     "https://media.giphy.com/media/UMon0fuimoAN9ueUNP/giphy.gif";
-  yesBtn.sytle.display = "none";
-  noBtn.sytle.display = "none";
+  yesBtn.style.display = "none";
+  noBtn.style.display = "none";
 });
 
 noBtn.addEventListener("mouseover", () => {
